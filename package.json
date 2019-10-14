@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/rjfrazier14/SEM-Fall-2019#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "simple-node-logger": "^18.12.23"
   }
 }
