@@ -1,6 +1,6 @@
-FROM Node 
+FROM node 
 
-RUN /app
+WORKDIR /app
 	#apt-get update && \
     #apt-get upgrade -y && \
    # apt-get install -y git
