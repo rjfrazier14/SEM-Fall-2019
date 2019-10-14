@@ -12,7 +12,7 @@ app.get('/version', (req, res) => {
 
 log = (arg) => {
     console.log(`Log in for ${arg}`)
-    logging.isInfo(`This is login results: ${arg}`)
+    logging.info(`This is login results: ${arg}`)
 }
 
 app.get('/logs', (req, res) => {
