@@ -17,7 +17,7 @@ log = (arg) => {
 
 app.get('/logs', (req, res) => {
     log('/logs'); 
-    fs.readfile(`hotdog.log`, `utf8`, (err,data) =>{
+    fs.readFile(`hotdog.log`, `utf8`, (err,data) =>{
         if(err)
             log(err);
             res.send(data.toString())
